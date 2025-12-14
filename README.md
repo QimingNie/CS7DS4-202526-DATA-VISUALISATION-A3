@@ -2,7 +2,6 @@
 
 A Python program for visualising SCATS site traffic spatial distribution (with an OpenStreetMap basemap) and analysing correlations between the top traffic sites.
 
----
 
 ## Requirements
 
@@ -11,9 +10,12 @@ A Python program for visualising SCATS site traffic spatial distribution (with a
   - `its_scats_sites_aug-2020.csv`
   - `scats_detector_volume_jan-jun-2020.csv`
 
----
-
 ## Installation
 
 ```bash
 pip install pandas numpy matplotlib cartopy mplcursors
+
+## Run
+
+```bash
+python a.py
